@@ -7,7 +7,7 @@ const CollectionItem = (props: ICollectionItemProps) => (
     <div className='collection-item'>
         <div
             className='image'
-            style={{ backgroundImage: `url(${props.imageUrl})` }} />
+            style={{ backgroundImage: `url(${props.imageurl})` }} />
 
         <div className='collection-footer'>
             <span className='name'>
